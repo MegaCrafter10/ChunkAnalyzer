@@ -1,0 +1,13 @@
+name: ChunkAnalyzer
+version: ${project.version}
+main: megacrafter10.analyzer.ChunkAnalyzer
+author: MegaCrafter10
+description: analyzes loaded chunks and displays a list of top 10 chunks with (entity-threshold) entities or more
+commands:
+    analyze:
+        usage: /analyze
+        description: analyzes all loaded chunks in the current world
+permissions:
+    chunkanalyzer.anylize:
+        description: Allows /analyze command
+        default: op

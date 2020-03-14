@@ -1,0 +1,3 @@
+# the number of entities required for the plugin to log the chunk.
+# logged chunks are displayed to the user once they run /analyze.
+entity-threshold: 20
