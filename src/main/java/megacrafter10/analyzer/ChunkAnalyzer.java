@@ -32,7 +32,7 @@ public final class ChunkAnalyzer extends JavaPlugin implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        if (!sender.hasPermission("chunkanalyzer.anylize")){
+        if (!sender.hasPermission("chunkanalyzer.analyze")){
             sender.sendMessage(ChatColor.RED + "You don't have permission to use that command");
             return true;
         }
